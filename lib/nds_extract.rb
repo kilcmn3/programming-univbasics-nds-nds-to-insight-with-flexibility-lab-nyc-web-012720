@@ -52,6 +52,7 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
 result = []
 result << movie_with_director_name[:director_name] = name
+return result
 end
 
 
