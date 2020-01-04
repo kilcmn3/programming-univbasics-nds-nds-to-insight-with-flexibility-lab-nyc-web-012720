@@ -78,7 +78,11 @@ result = {}
 total = 0;
 i = 0;
   while i < collection.length do
-    studio_name = collection[i][:studio_name]
+    if !result[collection[i][:studio]]
+      result[collection[i][:studio]] = collection[i][:worldwide_gross]
+        total = collection[i][:worldwide_gross]
+      while
+    end
 end
 end
 
