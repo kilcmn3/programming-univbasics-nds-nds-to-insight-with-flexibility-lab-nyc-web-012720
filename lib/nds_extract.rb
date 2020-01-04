@@ -83,8 +83,8 @@ i = 0;
       result[collection[i][:studio]] = total
 
       else
-        total += collection[i][:worldwide_gross]
-        result[collection][i][:studio]] = total
+        # total += collection[i][:worldwide_gross]
+        result[collection][i][:studio]] += total
     end
     i +=1
 end
