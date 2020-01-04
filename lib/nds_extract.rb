@@ -83,6 +83,7 @@ i = 0;
       result[collection[i][:studio]] = total
 
       else
+        total += collection[i][:worldwide_gross]
         result[collection][i][:studio]
     ]end
 end
