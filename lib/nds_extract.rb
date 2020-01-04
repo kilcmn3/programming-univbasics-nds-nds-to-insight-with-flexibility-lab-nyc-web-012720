@@ -88,6 +88,7 @@ i = 0;
     end
     i +=1
 end
+pp result
   result
 end
 
