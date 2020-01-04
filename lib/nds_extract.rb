@@ -88,6 +88,7 @@ i = 0;
     end
     i +=1
 end
+  result
 end
 
 def movies_with_directors_set(source)
