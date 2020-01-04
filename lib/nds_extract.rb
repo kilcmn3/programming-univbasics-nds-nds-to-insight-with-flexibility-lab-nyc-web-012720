@@ -86,6 +86,7 @@ i = 0;
         # total += collection[i][:worldwide_gross]
         result[collection][i][:studio] += total
     end
+    i +=1
 end
 end
 
