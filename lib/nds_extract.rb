@@ -80,7 +80,7 @@ def gross_per_studio(collection)
 #   while i < collection.length do
 #     if collection[i][:studio] != new_hash[:studio]
 #       new_hash[]
-  pp collection
+  pp collection["Alpha Films"]
 end
 
 def movies_with_directors_set(source)
