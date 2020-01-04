@@ -100,7 +100,10 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
-  pp source
+  new_array = []
+  [:name => "#{source[0][:name]}", :movies =>[
+    {:title => "#{source[0][:movies][:title]}"}
+    ]]
 end
 
 # ----------------    End of Your Code Region --------------------
