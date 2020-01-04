@@ -80,6 +80,8 @@ i = 0;
   while i < collection.length do
     if  !result[:studio]
         result[collection[i][:studio]] = collection[i][:worldwide_gross]
+      else
+        total += collection[i][:worldwide_gross]
 
 end
 
