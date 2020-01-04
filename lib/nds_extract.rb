@@ -105,7 +105,7 @@ def movies_with_directors_set(source)
   #   {:title => "#{source[0][:movies][:title]}"}
   #   ]]
     # pp source[0][:movies][0][:title]
-    pp source[0][:name]
+    pp source[0][:movies]
 end
 
 # ----------------    End of Your Code Region --------------------
