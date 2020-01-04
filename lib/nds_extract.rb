@@ -72,15 +72,15 @@ def gross_per_studio(collection)
   #
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
-# result = {"studio name" => :worldwide_gross}
-#
-# new_hash = {}
-# total = 0;
-# i = 0;
-#   while i < collection.length do
-#     if collection[i][:studio] != new_hash[:studio]
-#       new_hash[]
-  pp collection["Alpha Films"]
+result = {"studio name" => :worldwide_gross}
+
+new_hash = {}
+total = 0;
+i = 0;
+  while i < collection.length do
+    if collection[i][:studio] != new_hash[:studio]
+      new_hash[]
+
 end
 
 def movies_with_directors_set(source)
