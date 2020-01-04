@@ -84,7 +84,7 @@ i = 0;
 
       else
         total += collection[i][:worldwide_gross]
-        result[collection][i][:studio] = total
+        result[collection][i][:studio]] = total
     end
     i +=1
 end
