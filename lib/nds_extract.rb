@@ -75,14 +75,15 @@ def gross_per_studio(collection)
 result = {"studio name" => :worldwide_gross}
 
 result = {}
-total = 0;
 i = 0;
   while i < collection.length do
+    total = collection[i][:worldwide_gross]
     if !result[collection[i][:studio]]
       result[collection[i][:studio]] = collection[i][:worldwide_gross]
         total = collection[i][:worldwide_gross]
-      while
-    end
+      else
+        result[collection][i][:studio]
+    ]end
 end
 end
 
